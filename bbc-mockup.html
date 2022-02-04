@@ -1,0 +1,467 @@
+<html>
+<head>
+<title>Technology - BBC News</title>
+
+<style type="text/css">
+
+#topbar {
+
+    width:1200px; 
+    margin: 0 auto;
+    height: 40px; 
+    margin-bottom: 0px; 
+}
+
+.topbar-section{
+    float:left;
+    border-left: 1px #CCCCCC solid; 
+    border-right: 1px #CCCCCC solid; 
+    height: 100%;
+    
+}
+
+.topbar-menu{
+    font-weight:bold;
+    font-size:90%;
+    padding: 13px 15px 0px 15px;
+    height: 27px; 
+    margin-bottom:0px; 
+}
+
+#signin-image{
+    width:25px;
+    margin:10px 15px;
+    float: left; 
+}
+
+#signin-text{
+    font-weight: bold; 
+    font-size:90%;
+    position: relative;
+    top:14px; 
+    margin-right:50px;
+}
+
+#search-box{
+    background-color:E4E4E4;
+    border: none; 
+    font-weight: bold;
+    font-size:14px; 
+    padding: 5px; 
+    margin: 5px 0px 5px 5px; 
+    float:left;
+}
+
+#magnifying-glass{
+    height:27px; 
+    margin-top:5px; 
+}
+
+.clear{
+    float:both; 
+}
+
+.banner{
+    background-color: bb1919;
+    color: white;
+    margin-top:0px; 
+}
+
+#banner-text{
+    font-size: 200%;
+    font-family: Helvetica, Arial, sans-serif;
+    margin-left:27px;
+    margin-bottom:0px;
+    padding:10px;
+}
+
+#local-news{
+    float: right;
+    color: white;
+}
+
+#local-news a{
+    color: white; 
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+    top: -40px; 
+    left: -10px; 
+    border: 1px white solid; 
+    padding: 10px; 
+}
+
+#local-news a:hover{
+    text-decoration: underline; 
+}
+
+.topnav{
+    background-color:A91717;
+    color: white; 
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#topnav-text{
+    margin-left:38px;
+    padding-left:5px;
+    padding-right:5px; 
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#topnav-text a{
+    padding-right:5px;
+    padding-left:5px;
+    position: relative;
+    left: -6px; 
+    border-left: 1px solid white;
+}
+
+.topbar-menu{
+    padding-left:5px;
+    padding-right:5px;
+}
+
+a:link {
+   color: white;
+    text-decoration:none; 
+}
+
+h1{
+    color: darkgray;
+    size:50%;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#logo{
+    width:120px;
+    float:left; 
+    margin-right:8px;
+    margin-top:-10px;
+    margin-left:-15px;
+    margin-bottom:0px; 
+    padding-bottom: 0px; 
+}
+
+#menu-bar-2-container{
+    background-color:A91717;
+    width: 100%;
+}
+
+#menu-bar-2{
+    width: 1000px; 
+    margin: 0 auto;
+    height: 30px; 
+
+}
+
+body {
+    margin:0px;
+    padding:0px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#page-container{
+    width:1000px; 
+    margin: 0px auto; 
+}
+
+h2{
+   font-weight:normal;
+   margin-top:40px;
+   font-size:20px; 
+   position:relative;
+   left: -120px; 
+    top: -30px; 
+    border-bottom: 2px solid #a91717; 
+    width:105px; 
+}
+
+h3 a{
+    color:black;
+    font-size:30px; 
+    text-decoration:none;
+    position:relative;
+    left:-120px; 
+    top:-30px; 
+}
+
+h3 a:hover{
+    color:#1167a8; 
+}
+
+#article-summary{
+    color:5a5a5a; 
+    width:250px; 
+    position:relative;
+    left:-120px; 
+    top: -30px; 
+    float: left; 
+
+}
+
+#article-summary img{
+    height: 15px; 
+    position:relative;
+    top: 2px; 
+    left: -2px;
+}
+
+.clock{
+    height: 15px;
+    position: relative;
+    top: 2px; 
+}
+
+#topic-link{
+    text-decoration: none;
+    color: #a91717; 
+    border-left: 1px solid #CCCCCC; 
+    padding-left: 10px; 
+}
+
+#article-summary a:hover{
+    color:#1167a8; 
+}
+
+#article-container{
+
+    float:left;
+    width:650px; 
+    border-right: 1px solid #CCCCCC; 
+    padding-right: 40px; 
+}
+
+.date{
+   padding-right: 10px;  
+   color: #5a5a5a; 
+}
+
+#main-article-image{
+    width:400px; 
+    position:relative;
+    left:-110px; 
+    top: -15px; 
+}
+
+#article-hr{
+    border-color: 1px solid  #a91717; 
+    width: 50px; 
+}
+
+.article-link{
+    color: black;
+    text-decoration: none; 
+}
+
+#watch-listen{
+    margin-left: 20px;
+    padding-top: 0px; 
+    
+}
+
+h4{
+    font-weight: normal;
+    font-size: 20px; 
+}
+
+.article-side-image{
+    float: left; 
+    width: 90px; 
+    padding: 5px; 
+}
+
+.watch-listen-link{
+    text-decoration: none; 
+    color: black; 
+    font-weight: bold;  
+    font-size: 18px; 
+}
+
+.side-article{
+    float: right; 
+    width: 340px; 
+    position: relative; 
+    top:-300px; 
+    left: -150px; 
+    border-left: 1px solid #CCCCCC; 
+    padding-left: 25; 
+}
+
+.side-article2{
+    float: right; 
+    width: 340px; 
+    position: relative; 
+    right: -216px; 
+    top: -128px; 
+    border-left: 1px solid #CCCCCC; 
+    padding-left: 25; 
+}
+
+.side-article3{
+    float: right; 
+    width: 340px; 
+    position: relative; 
+    right: -582px; 
+    top: -37px; 
+    border-left: 1px solid #CCCCCC; 
+    padding-left: 25; 
+}
+
+</style>
+
+</head>
+
+<body>
+
+    <div id="topbar"> 
+
+        <img id="logo" src="https://1000logos.net/wp-content/uploads/2016/10/BBC-Logo-500x281.jpg">
+
+        <div id="signin-div" class="topbar-section">
+
+            <img id="signin-image" src="signin-image.png"> 
+
+            <span id="signin-text">Sign in</span>
+        </div>
+        <div class="topbar-section topbar-menu">
+            News
+        </div>
+        
+        <div class="topbar-section topbar-menu">
+            Sport
+        </div>
+        
+        <div class="topbar-section topbar-menu">
+            Weather
+        </div>
+
+        <div class="topbar-section topbar-menu">
+            iPlayer
+        </div>
+
+        <div class="topbar-section topbar-menu">
+            TV
+        </div>
+
+        <div class="topbar-section topbar-menu">
+            More
+        </div>
+
+        <div class="topbar-section">
+            <input id="search-box" type="text" value="Search">
+            <input type="image" id="magnifying-glass" src="magnifying-glass.png">
+        </div>
+    </div>
+
+    <div class="clear"></div>
+
+<!--Begin Banner-->
+
+<div class="banner">
+    <p id="banner-text">NEWS</p>
+    <div id="local-news">
+       <a href="">Find local news</a>
+    </div>
+</div>
+
+<!--Begin Menu-->
+
+
+
+    <div class="topnav">
+        <div id="topnav-text">
+            <a class="active" href="#home">Home</a>
+            <a href="#uk">UK</a>
+            <a href="#world">World</a>
+            <a href="#business">Business</a>
+            <a href="politics">Politics</a>
+            <a href="tech">Tech</a>
+            <a href="science">Science</a>
+            <a href="health">Health</a>
+            <a href="education">Education</a>
+            <a href="entertainment-arts">Entertainment & Arts</a>
+            <a href="video-audio">Video & Audio</a>
+            <a href="more">More</a>
+        </div>    
+      </div>
+
+</Menu:toolbar>
+
+<div class="clear"></div>
+
+<div id="page-container">
+
+    <div id="main-article">
+        <h2>Technology</h2>
+
+         <div id="artcile-container">
+
+            <h3><a href="">Asda bug exposed payment details</a></h3>
+            <div id="article-summary">
+                <p>Security vulnerabilities that put customers at risk have effected Asda's website for a couple of years, a security expert has revealed.</p>
+                <p> <img src="clock-icon.png"><span id="date">19 January 2016</span><a id="topic-link" href="">Technology</a></p>
+                </p>
+                <hr id="article-hr" align="left">
+
+                <p><a class="article-link" href="">Surveillence firm hit in hack attack</a></p>
+                <p><a class="article-link" href="">eBay flaw has existed for months</a></p>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div>
+
+<img id="main-article-image" src="https://www.theboltonnews.co.uk/resources/images/11150848/?type=responsive-gallery" alt="Asda sign">
+
+<div class="clear"></div>
+    
+<div id="watch-listen">
+    
+    <div class="side-article">
+
+        <h4>Watch/Listen</h4>
+        <img class="article-side-image" src="icon-article-1.png"> 
+    
+        <a class="watch-listen-link" href="">UK science chief backs blockchain</a>
+
+        <p> <img class="clock" src="clock-icon.png"><span class="date">19 January 2016</span></p>
+                    </p>
+     </div>
+<div class="clear"></div>
+
+<div class="side-article2">
+
+    <img class="article-side-image" src="icon-article-2.png"> 
+
+    <a class="watch-listen-link" href="">Drone register gives 'accountability'</a>
+
+    <p> <img class="clock" src="clock-icon.png"><span class="date">19 January 2016</span><a id="topic-link" href="">Technology</a></p>
+                </p>
+ </div>
+
+ <div class="clear"></div>
+
+ <div class="side-article3">
+ 
+     <img class="article-side-image" src="icon-article-3.png"> 
+ 
+     <a class="watch-listen-link" href="">SpaceX rocket explodes during landing</a>
+ 
+     <p> <img class="clock" src="clock-icon.png"><span class="date">19 January 2016</span><a id="topic-link" href="">Science</a></p>
+                 </p>
+  </div>
+
+
+
+</div>
+
+</div>
+
+</body>
+
+
+</html>
